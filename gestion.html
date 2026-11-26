@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0A1024">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" href="/img/favicon.png">
+<title>Gestion — Tawali Souk</title>
+<link rel="stylesheet" href="/fonts/fonts.css">
+<link rel="stylesheet" href="/admin.css">
+<style>
+.ocs{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:14px;}
+.oc{background:#fff;border-radius:18px;padding:14px;box-shadow:0 1px 0 var(--g1);cursor:pointer;transition:box-shadow .2s,transform .2s;border-left:4px solid var(--g2);}
+.oc:hover{box-shadow:0 10px 28px rgba(10,16,36,.1);transform:translateY(-2px);}
+.oc.pay{border-left-color:var(--orange);} .oc.ok{border-left-color:var(--vert);} .oc.new{border-left-color:var(--rouge);animation:blink 1.4s ease-in-out 6;}
+@keyframes blink{50%{box-shadow:0 0 0 3px rgba(242,140,40,.35);}}
+.oc-h{display:flex;justify-content:space-between;align-items:center;gap:8px;}
+.oc-h b{font-size:18px;}
+.oc .imgs{display:flex;margin:10px 0 8px;}
+.oc .imgs img{width:40px;height:40px;border-radius:10px;object-fit:cover;box-shadow:0 0 0 2px #fff;}
+.oc .imgs img+img{margin-left:-10px;}
+.oc .m{font-size:13px;color:var(--g4);line-height:1.45;}
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px;}
+.fb{padding:8px 14px;border-radius:999px;background:#fff;font-weight:700;font-size:13px;color:var(--g4);box-shadow:0 1px 0 var(--g1);display:inline-flex;gap:6px;align-items:center;}
+.fb.on{background:var(--nuit);color:#fff;}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;}
+.pcd{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 1px 0 var(--g1);display:flex;flex-direction:column;}
+.pcd.off{opacity:.55;}
+.pcd .im{aspect-ratio:4/3;background:var(--g1) center/cover;position:relative;cursor:pointer;}
+.pcd .im .b{position:absolute;top:8px;left:8px;display:flex;gap:4px;flex-wrap:wrap;}
+.pcd .bd{padding:12px;display:flex;flex-direction:column;gap:6px;flex:1;}
+.pcd .bd b{font-size:14px;line-height:1.25;}
+.pcd .ft{display:flex;justify-content:space-between;align-items:center;margin-top:auto;gap:6px;}
+.photos{display:flex;gap:10px;flex-wrap:wrap;}
+.ph{width:104px;height:104px;border-radius:14px;background:var(--g1) center/cover;position:relative;box-shadow:inset 0 0 0 1px var(--g2);}
+.ph.cover{box-shadow:0 0 0 3px var(--orange);}
+.ph .a{position:absolute;bottom:4px;left:4px;right:4px;display:flex;gap:3px;justify-content:center;}
+.ph .a button{width:26px;height:26px;border-radius:50%;background:rgba(10,16,36,.78);color:#fff;font-size:13px;font-weight:700;}
+.ph.add{display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:12px;font-weight:700;color:var(--g4);cursor:pointer;border:2px dashed var(--g2);box-shadow:none;background:#fff;}
+.ph.add span{font-size:28px;line-height:1;}
+.vrow{display:flex;gap:8px;align-items:center;margin-bottom:8px;}
+.vrow .vim{width:44px;height:44px;border-radius:10px;background:var(--g1) center/cover;flex-shrink:0;cursor:pointer;box-shadow:inset 0 0 0 1px var(--g2);}
+.ia-box{background:linear-gradient(135deg,#1a2346,var(--nuit));color:#fff;border-radius:18px;padding:16px;margin:14px 0;}
+.ia-box .in{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.15);color:#fff;}
+.sec-t{font-weight:800;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--g4);margin:18px 0 8px;}
+.chatlist{display:grid;grid-template-columns:300px 1fr;gap:14px;min-height:520px;}
+@media(max-width:900px){.chatlist{grid-template-columns:1fr;}}
+.cl-item{display:flex;gap:10px;align-items:center;padding:12px;border-radius:14px;cursor:pointer;}
+.cl-item:hover,.cl-item.on{background:var(--fond);}
+.msgs{display:flex;flex-direction:column;gap:8px;max-height:480px;overflow:auto;padding:6px;}
+.msg{max-width:78%;padding:9px 13px;border-radius:16px;font-size:14px;white-space:pre-wrap;}
+.msg.me{align-self:flex-end;background:var(--nuit);color:#fff;border-bottom-right-radius:4px;}
+.msg.them{align-self:flex-start;background:var(--fond);border-bottom-left-radius:4px;}
+.msg small{display:block;font-size:10.5px;opacity:.6;margin-top:2px;}
+.proof{max-width:100%;max-height:420px;border-radius:14px;box-shadow:0 0 0 1px var(--g2);}
+.alertbar{display:flex;align-items:center;gap:12px;padding:12px 16px;border-radius:16px;background:var(--orangep);color:#7a3a00;font-weight:600;margin-bottom:14px;flex-wrap:wrap;}
+.alertbar .btn{margin-left:auto;}
+.steps-s{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0;}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <img src="/img/logo-clair.png" alt="Tawali Souk">
+  <div class="brand"><small>Espace gestion</small><span class="live" id="live"><i></i><span>Connexion…</span></span></div>
+  <div class="tb-r">
+    <button class="openbtn on" id="openbtn" onclick="toggleOuvert()"><i></i><span>Boutique ouverte</span></button>
+    <a class="tb-btn" href="/" target="_blank">Voir la boutique ↗</a>
+    <button class="tb-btn" onclick="logout()">Déconnexion</button>
+  </div>
+</header>
+<nav class="nav" id="nav"></nav>
+<main class="content" id="main"><div class="empty">Chargement…</div></main>
+<script src="/vendor/qrcode.js"></script>
+<script src="/admin-commun.js"></script>
+<script src="/gestion.js"></script>
+</body>
+</html>

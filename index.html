@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#060A16">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Tawali Souk">
+<meta name="description" content="Tawali Souk — marmites granité, inox, émaillées, plats isothermes, tapis et pantoufles. Livraison à Abidjan au créneau de votre choix, expédition partout. Paiement Wave, Orange Money, MTN, Moov.">
+<meta property="og:title" content="Tawali Souk — L’élégance au cœur de votre cuisine">
+<meta property="og:description" content="Marmites, plats de service, tapis : livraison à Abidjan, expédition partout, paiement Mobile Money.">
+<meta property="og:image" content="/img/partage.jpg">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" type="image/png" href="/img/favicon.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<title>Tawali Souk</title>
+<link rel="stylesheet" href="/fonts/fonts.css">
+<link rel="stylesheet" href="/boutique.css">
+</head>
+<body>
+<div class="bandeau"><div class="mq" id="bandeau-t">Livraison partout à Abidjan · Expédition dans toute la Côte d’Ivoire</div></div>
+<header class="top"><div class="wrap in">
+  <a class="logo" onclick="go('accueil')" aria-label="Accueil"><img src="/img/logo-clair.png" alt="Tawali Souk"></a>
+  <nav class="nav-d">
+    <a data-v="accueil" onclick="go('accueil')">Accueil</a><a data-v="boutique" onclick="go('boutique')">Boutique</a>
+    <a data-v="commandes" onclick="go('commandes')">Mes commandes</a><a data-v="devis" onclick="go('devis')">Sur mesure</a><a data-v="magasin" onclick="go('magasin')">La boutique</a>
+  </nav>
+  <label class="search top-s"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><input id="q1" placeholder="Rechercher un article…" onfocus="if(S.vue!=='boutique')go('boutique',{q:this.value})" oninput="searchLive(this.value)"></label>
+  <button class="ico" style="margin-left:auto" onclick="go('notifs')" aria-label="Notifications"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span class="b" id="b-notif"></span></button>
+  <button class="ico" onclick="go('compte')" aria-label="Compte"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></svg></button>
+  <button class="ico cart" onclick="go('panier')" aria-label="Panier"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 7h12l1 13H5z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg><span class="b" id="b-panier"></span></button>
+</div></header>
+
+<main id="vue"><div class="loader"><img src="/img/logo-clair.png" alt=""><div class="muted small">Ouverture de la boutique…</div></div></main>
+
+<div class="fabs" id="fabs">
+  <a class="fab wa" id="fab-wa" href="https://wa.me/2250711615439" target="_blank" rel="noopener" aria-label="WhatsApp"><span class="c"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.5-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5.3-.5c.1-.2 0-.4 0-.5L9.2 7c-.2-.5-.4-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2.1 3.2 5 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg></span></a>
+  <button class="fab ia" onclick="openIA()"><span class="c"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></svg></span>Awa</button>
+</div>
+
+<nav class="nav"><div class="in">
+  <button data-v="accueil" onclick="go('accueil')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg>Accueil</button>
+  <button data-v="boutique" onclick="go('boutique')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg>Boutique</button>
+  <button data-v="panier" onclick="go('panier')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M6 7h12l1 13H5z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>Panier<span class="nb" id="nb-panier"></span></button>
+  <button data-v="commandes" onclick="go('commandes')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M21 8l-9-5-9 5 9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/></svg>Commandes<span class="nb" id="nb-cmd"></span></button>
+  <button data-v="compte" onclick="go('compte')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></svg>Compte</button>
+</div></nav>
+
+<div class="sheet" id="sheet"><div class="bg" onclick="closeSheet()"></div><div class="pn" id="pn"></div></div>
+<div class="zoom" id="zoom" onclick="this.classList.remove('on')"><img id="zoom-img" alt=""></div>
+<div class="toast" id="toast"><div class="td"></div><div><b id="t-t"></b><span id="t-b"></span></div></div>
+<script src="/boutique.js"></script>
+</body>
+</html>

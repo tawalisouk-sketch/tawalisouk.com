@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#060A16">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" href="/img/favicon.png">
+<title>Course — Tawali Souk</title>
+<link rel="stylesheet" href="/fonts/fonts.css">
+<style>
+:root{--nuit:#060A16;--nuit3:#111A33;--or:#E7B75F;--orange:#F28C28;--txt:#F5F0E8;--txt2:rgba(245,240,232,.68);--ligne:rgba(255,255,255,.1);--grad:linear-gradient(135deg,#FFB35C,#F28C28 48%,#E0641E);--vert:#3BD07F;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Manrope',-apple-system,sans-serif;background:var(--nuit);color:var(--txt);min-height:100vh;padding-bottom:30px;}
+.top{padding:calc(18px + env(safe-area-inset-top,0px)) 18px 16px;display:flex;align-items:center;gap:12px;}
+.top img{height:36px;}
+.d{font-family:'Cormorant Garamond',serif;font-weight:700;font-size:34px;line-height:1;}
+.box{background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.03));box-shadow:inset 0 0 0 1px var(--ligne);border-radius:22px;padding:16px;margin:0 14px 12px;}
+.k{color:var(--txt2);font-size:11.5px;font-weight:800;text-transform:uppercase;letter-spacing:.12em;}
+.v{font-size:17px;font-weight:700;margin:3px 0 10px;}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;height:56px;border-radius:999px;border:none;font-weight:800;font-size:16px;color:#1B0E02;background:var(--grad);text-decoration:none;margin-bottom:10px;cursor:pointer;font-family:inherit;}
+.btn.ghost{background:rgba(255,255,255,.08);color:var(--txt);box-shadow:inset 0 0 0 1px var(--ligne);}
+.btn.vert{background:linear-gradient(135deg,#46e08a,#1faa55);color:#03210f;}
+.btn.or{background:linear-gradient(135deg,#F7DDA3,#E7B75F);}
+.row{display:flex;gap:10px;} .row .btn{flex:1;font-size:14px;height:50px;}
+.st{display:flex;align-items:center;gap:10px;font-weight:700;margin-bottom:12px;}
+.st i{width:14px;height:14px;border-radius:50%;background:#666;}
+.st.on i{background:var(--vert);box-shadow:0 0 0 6px rgba(59,208,127,.25);animation:p 1.5s infinite;}
+@keyframes p{50%{box-shadow:0 0 0 11px rgba(59,208,127,.05);}}
+.tot{display:flex;justify-content:space-between;align-items:center;margin-top:10px;}
+.tot b{font-size:28px;}
+li{list-style:none;padding:5px 0;display:flex;gap:10px;align-items:center;}
+li img{width:42px;height:42px;border-radius:10px;object-fit:cover;}
+.err{color:#ff9d9d;font-weight:600;font-size:14px;}
+.chat{display:flex;flex-direction:column;gap:6px;max-height:260px;overflow:auto;margin:8px 0;}
+.msg{max-width:84%;padding:9px 13px;border-radius:18px;font-size:14.5px;}
+.msg.me{align-self:flex-end;background:var(--grad);color:#1B0E02;} .msg.them{align-self:flex-start;background:rgba(255,255,255,.08);}
+.msg small{display:block;font-size:10.5px;opacity:.6;}
+.cmp{display:flex;gap:8px;} .cmp input{flex:1;height:50px;border-radius:999px;border:none;background:rgba(255,255,255,.07);box-shadow:inset 0 0 0 1px var(--ligne);color:var(--txt);padding:0 18px;font-size:15px;font-family:inherit;outline:none;}
+.cmp button{width:50px;height:50px;border-radius:50%;border:none;background:var(--grad);font-size:18px;}
+.badge{display:inline-block;padding:5px 11px;border-radius:999px;font-size:12px;font-weight:800;background:rgba(231,183,95,.16);color:var(--or);}
+</style>
+</head>
+<body>
+<div class="top"><img src="/img/logo-clair.png" alt="Tawali Souk"></div>
+<div style="padding:0 18px 14px"><div class="d" id="t">Course</div><p id="sub" style="color:var(--txt2);margin-top:4px">Chargement…</p></div>
+<div id="main"></div>
+<script>
+const q = new URLSearchParams(location.search), C = q.get('c'), K = q.get('k');
+const $ = id => document.getElementById(id);
+const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const F = n => Math.round(n || 0).toLocaleString('fr-FR').replace(/[  ]/g, ' ') + ' F';
+const hh = iso => new Date(iso).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
+let watch = null, lastSent = 0, wake = null, O = null, B = null, nbMsg = 0;
+async function post(path, body) { const r = await fetch(path, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(Object.assign({ c: C, k: K }, body)) }); const j = await r.json(); if (!r.ok || !j.ok) throw new Error(j.error || 'Erreur'); return j; }
+async function load(silent) {
+  try {
+    const r = await fetch(`/api/livreur/commande?c=${encodeURIComponent(C)}&k=${encodeURIComponent(K)}`).then(x => x.json());
+    if (!r.ok) throw new Error(r.error);
+    const nouveaux = r.commande.chat.length > nbMsg && nbMsg > 0 && r.commande.chat[r.commande.chat.length - 1].de === 'client';
+    O = r.commande; B = r.boutique;
+    if (!silent || nouveaux || O.statut !== 'en_route') draw(); else drawChat();
+    if (nouveaux && navigator.vibrate) navigator.vibrate([150, 80, 150]);
+    nbMsg = O.chat.length;
+  } catch (e) { $('sub').textContent = ''; $('main').innerHTML = `<div class="box err">${esc(e.message || 'Lien invalide')}</div>`; }
+}
+function draw() {
+  const c = O, lv = c.livraison;
+  $('t').textContent = 'Course n° ' + c.numero; $('sub').textContent = (lv.date ? lv.creneau : '') + (c.livreur ? ' · ' + c.livreur.nom : '');
+  if (c.statut !== 'en_route') { $('main').innerHTML = `<div class="box"><div class="d" style="font-size:28px">${c.statut === 'livree' ? 'Course terminée ✓' : 'Course non active'}</div><p style="margin-top:8px;color:var(--txt2)">Merci !</p></div>`; stop(true); return; }
+  const dest = lv.position ? `${lv.position.lat},${lv.position.lng}` : encodeURIComponent((lv.adresse || '') + ' ' + (lv.zone || '') + ' Abidjan');
+  const cash = c.paiement.statut === 'a_la_livraison';
+  $('main').innerHTML = `
+    <div class="box"><div class="k">Client</div><div class="v">${esc(c.clientNom)}</div>
+      <div class="k">Adresse · ${esc(lv.zone || '')}</div><div class="v">${esc(lv.adresse || 'Position GPS partagée')}${lv.repere ? `<br><span style="font-weight:500;color:var(--txt2)">Repère : ${esc(lv.repere)}</span>` : ''}</div>
+      ${c.note ? `<div class="k">Note du client</div><div class="v" style="font-weight:500">${esc(c.note)}</div>` : ''}
+      <div class="row"><a class="btn ghost" href="tel:${esc(c.tel)}">📞 Appeler</a><a class="btn ghost" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=${dest}">🧭 Itinéraire</a></div></div>
+    <div class="box"><ul>${c.lignes.map(l => `<li><img src="${esc(l.image)}" alt=""><span><b>${l.qte} ×</b> ${esc(l.nom)}${l.variante ? ' — ' + esc(l.variante) : ''}</span></li>`).join('')}</ul>
+      <div class="tot"><div><div class="k">${cash ? 'À encaisser' : 'Déjà payé'}</div><span class="badge">${cash ? 'Espèces / Mobile Money' : '✓ Payé en ligne'}</span></div><b>${cash ? F(c.total) : '0 F'}</b></div></div>
+    <div class="box"><div class="st ${watch !== null ? 'on' : ''}"><i></i><span id="st-t">${watch !== null ? 'Position partagée avec le client' : 'Position non partagée'}</span></div>
+      ${watch === null ? `<button class="btn vert" onclick="start()">▶ Démarrer la course</button>` : `<button class="btn ghost" onclick="stop()">Mettre en pause</button>`}
+      <button class="btn or" onclick="proche()" ${c.proche ? 'disabled style="opacity:.5"' : ''}>${c.proche ? '✓ Client prévenu de votre arrivée' : '📣 J’arrive (prévenir le client)'}</button>
+      <p id="gerr" class="err"></p></div>
+    <div class="box"><div class="k">Discussion avec le client</div><div class="chat" id="chat"></div>
+      <div class="cmp"><input id="msg" placeholder="Ex. Je suis devant le portail" onkeydown="if(event.key==='Enter')envoyer()"><button onclick="envoyer()">➤</button></div>
+      <div class="row" style="margin-top:8px">${['Je suis en route', 'J’arrive dans 5 min', 'Je suis devant'].map(t => `<button class="btn ghost" style="height:40px;font-size:12.5px" onclick="$('msg').value='${t}';envoyer()">${t}</button>`).join('')}</div></div>
+    <div style="padding:0 14px"><button class="btn" onclick="livree()">✓ Commande livrée${cash ? ' et encaissée' : ''}</button></div>`;
+  drawChat();
+}
+function drawChat() {
+  const el = $('chat'); if (!el) return;
+  el.innerHTML = O.chat.map(m => `<div class="msg ${m.de === 'livreur' ? 'me' : 'them'}">${esc(m.texte)}<small>${hh(m.at)}</small></div>`).join('') || '<p style="color:var(--txt2);font-size:13px">Aucun message.</p>';
+  el.scrollTop = el.scrollHeight;
+}
+async function envoyer() { const i = $('msg'), t = i.value.trim(); if (!t) return; i.value = ''; try { const r = await post('/api/livreur/chat', { texte: t }); O.chat.push(r.message); nbMsg = O.chat.length; drawChat(); } catch (e) { alert(e.message); } }
+async function proche() { try { await post('/api/livreur/proche', {}); O.proche = { at: new Date().toISOString() }; draw(); } catch (e) { alert(e.message); } }
+async function start() {
+  if (!navigator.geolocation) return $('gerr').textContent = 'GPS indisponible sur ce téléphone.';
+  watch = navigator.geolocation.watchPosition(async p => {
+    const now = Date.now(); if (now - lastSent < 7000) return; lastSent = now;
+    try { const r = await post('/api/livreur/position', { lat: p.coords.latitude, lng: p.coords.longitude }); const st = $('st-t'); if (st) st.textContent = 'Position partagée · ' + new Date().toLocaleTimeString('fr-FR') + (r.distance !== null ? ' · client à ' + (r.distance < 1000 ? r.distance + ' m' : (r.distance / 1000).toFixed(1) + ' km') : ''); }
+    catch (e) { $('gerr').textContent = e.message; }
+  }, () => { $('gerr').textContent = 'Autorisez la localisation pour que le client vous suive.'; }, { enableHighAccuracy: true, maximumAge: 5000, timeout: 20000 });
+  try { if ('wakeLock' in navigator) wake = await navigator.wakeLock.request('screen'); } catch (e) { }
+  draw();
+}
+function stop(silent) { if (watch !== null) navigator.geolocation.clearWatch(watch); watch = null; if (wake) { wake.release(); wake = null; } if (!silent) draw(); }
+async function livree() {
+  const cash = O.paiement.statut === 'a_la_livraison';
+  if (!confirm(cash ? `Confirmez-vous avoir remis le colis ET encaissé ${F(O.total)} ?` : 'Confirmez-vous avoir remis le colis au client ?')) return;
+  try { await post('/api/livreur/livree', { encaisse: cash }); stop(true); O.statut = 'livree'; draw(); } catch (e) { alert(e.message); }
+}
+load();
+setInterval(() => load(true), 6000);
+</script>
+</body>
+</html>
