@@ -1,0 +1,51 @@
+TAWALI SOUK — Boutique en ligne (client + gestion + livreur)
+=============================================================
+
+1. DÉMARRER SUR VOTRE ORDINATEUR
+   - Installez Node.js (version 18 ou plus) : https://nodejs.org
+   - Double-cliquez sur demarrer.bat (Windows) ou lancez ./demarrer.sh (Mac/Linux)
+   - Boutique : http://localhost:3000
+   - Gestion  : http://localhost:3000/gestion.html  (créez votre identifiant, mot de passe
+     et code de suppression à la première ouverture)
+   Aucun "npm install" n'est nécessaire : aucune dépendance externe.
+
+2. À FAIRE AVANT L'OUVERTURE (10 minutes)
+   a) Produits › « Prix & stocks rapides » : saisissez les prix. Un produit à 0 F
+      affiche « Prix sur demande » et ne peut pas être commandé en ligne.
+   b) Paiements : vérifiez vos numéros Wave et Orange Money (07 11 61 54 39 prérempli),
+      ajoutez les numéros MTN et Moov puis activez-les. Vérifiez les codes USSD.
+   c) Réglages › « Ma position » depuis la boutique de Faya Génie 2000 (la position
+      fournie est approximative). Testez le bouton Yango sur un téléphone.
+   d) Livraison & tarifs : les distances des villes sont approximatives, ajustez-les.
+
+3. PAIEMENT MOBILE MONEY — COMMENT C'EST SÉCURISÉ
+   Sans agrégateur, l'argent va directement sur VOS comptes : le site ne le touche jamais.
+   Le client envoie le montant exact, saisit la référence (ID de transaction) reçue par SMS,
+   joint la capture s'il veut. Vous voyez « À VÉRIFIER », contrôlez sur votre appli et validez.
+   - Montant recalculé par le serveur (impossible de tricher sur les prix)
+   - Une référence ne peut servir qu'une seule fois
+   - Captures visibles uniquement dans la gestion
+   - Expédition impossible tant que le paiement n'est pas validé
+   - Validation automatique possible : passerelle SMS (voir onglet Paiements) avec une appli
+     Android de transfert de SMS installée sur le téléphone qui reçoit les paiements.
+   Important : sans contrat API avec l'opérateur, aucun site ne peut vérifier seul qu'un
+   paiement est réel. Ne validez qu'après avoir vu l'argent arriver.
+
+4. INTELLIGENCE ARTIFICIELLE (facultatif)
+   Créez une clé sur console.anthropic.com, puis collez-la dans Réglages › IA
+   (ou variable d'environnement ANTHROPIC_API_KEY). Elle active :
+   - la fiche produit rédigée depuis les photos (bouton « Générer avec l'IA »)
+   - l'assistante Awa en mode expert. Sans clé, Awa répond déjà aux questions simples.
+
+5. METTRE EN LIGNE (obligatoire pour les notifications et l'installation sur téléphone)
+   Il faut un hébergement HTTPS avec un DISQUE PERSISTANT (sinon les commandes sont perdues
+   à chaque redémarrage) : Render (Disk), Railway (Volume), ou un VPS.
+   - Commande de démarrage : node server.js
+   - Variables : DATA_FILE=/data/data.json  (dossier /data sur le disque persistant)
+   - Un Dockerfile est fourni.
+   Sauvegardes automatiques quotidiennes (30 jours) dans le dossier « sauvegardes ».
+
+6. PAGES
+   /                 boutique (installable : « Ajouter à l'écran d'accueil »)
+   /gestion.html     espace gestion
+   /livreur.html     page de course (lien envoyé au livreur, sans compte)

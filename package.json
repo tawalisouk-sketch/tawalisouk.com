@@ -1,0 +1,10 @@
+{
+  "name": "tawali-souk",
+  "version": "1.0.0",
+  "description": "Tawali Souk — boutique en ligne installable (client + gestion + livreur), paiement Mobile Money direct",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED",
+  "private": true
+}

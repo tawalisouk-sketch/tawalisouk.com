@@ -1,0 +1,1764 @@
+{
+ "categories": [
+  {
+   "cle": "granite",
+   "nom": "Granité & antiadhésif",
+   "sousTitre": "Cuisson saine, rien n’accroche",
+   "couleur": "#C2410C",
+   "ordre": 1
+  },
+  {
+   "cle": "inox",
+   "nom": "Inox & aluminium",
+   "sousTitre": "Les marmites qui durent une vie",
+   "couleur": "#64748B",
+   "ordre": 2
+  },
+  {
+   "cle": "emaille",
+   "nom": "Émaillé prestige",
+   "sousTitre": "Le chic des grandes tables",
+   "couleur": "#B45309",
+   "ordre": 3
+  },
+  {
+   "cle": "service",
+   "nom": "Plats de service & isothermes",
+   "sousTitre": "Servir chaud, recevoir en beauté",
+   "couleur": "#A16207",
+   "ordre": 4
+  },
+  {
+   "cle": "table",
+   "nom": "Art de la table",
+   "sousTitre": "Vaisselle et couverts",
+   "couleur": "#1E3A8A",
+   "ordre": 5
+  },
+  {
+   "cle": "ustensiles",
+   "nom": "Ustensiles & couteaux",
+   "sousTitre": "Les bons outils en cuisine",
+   "couleur": "#7C3AED",
+   "ordre": 6
+  },
+  {
+   "cle": "electro",
+   "nom": "Petit électroménager",
+   "sousTitre": "Mixer, moudre, gagner du temps",
+   "couleur": "#0F766E",
+   "ordre": 7
+  },
+  {
+   "cle": "tapis",
+   "nom": "Tapis bain & entrée",
+   "sousTitre": "Absorbants, antidérapants, élégants",
+   "couleur": "#1D4ED8",
+   "ordre": 8
+  },
+  {
+   "cle": "pantoufles",
+   "nom": "Pantoufles",
+   "sousTitre": "Spa, hôtels, mariages",
+   "couleur": "#9D174D",
+   "ordre": 9
+  }
+ ],
+ "produits": [
+  {
+   "ref": "G01",
+   "cat": "granite",
+   "nom": "Set Royal Dessini Classic Plus — Rouge rubis",
+   "desc": "Un rouge profond moucheté de blanc et une sauteuse assortie : la série qui illumine une cuisine. Revêtement effet granit, couvercles en verre bordés d’inox.",
+   "points": [
+    "4 marmites + 1 sauteuse à long manche",
+    "Couvercles en verre avec bouton inox",
+    "Revêtement effet granit, rien n’attache",
+    "Poignées assorties au corps"
+   ],
+   "contenu": "4 marmites, 1 sauteuse, couvercles",
+   "prix": 0,
+   "badge": "Best-seller",
+   "vedette": true,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/15a0550b.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "G02",
+   "cat": "granite",
+   "nom": "Set Royal Dessini Classic Plus — 5 marmites",
+   "desc": "La même qualité Royal Dessini en deux coloris intenses. Cinq tailles qui s’emboîtent, du petit déjeuner au grand repas de famille.",
+   "points": [
+    "5 marmites de tailles différentes",
+    "Couvercles en verre bordés d’inox",
+    "Finition granit mouchetée",
+    "Se rangent les unes dans les autres"
+   ],
+   "contenu": "5 marmites avec couvercles",
+   "prix": 0,
+   "badge": "",
+   "vedette": true,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/fff93202.jpg",
+    "/catalogue/879db44a.jpg"
+   ],
+   "variantes": [
+    {
+     "nom": "Prune",
+     "image": "/catalogue/fff93202.jpg"
+    },
+    {
+     "nom": "Bleu roi",
+     "image": "/catalogue/879db44a.jpg"
+    }
+   ]
+  },
+  {
+   "ref": "G03",
+   "cat": "granite",
+   "nom": "Set Bosch Regina granité 10 pièces — Violet",
+   "desc": "Un violet profond et une finition granit soignée, livrée dans sa boîte d’origine. Cinq marmites et leurs couvercles pour toute la cuisine du quotidien.",
+   "points": [
+    "10 pièces : 5 marmites et leurs couvercles",
+    "Revêtement effet granit",
+    "Boutons de couvercle assortis",
+    "Livré en boîte d’origine, parfait à offrir"
+   ],
+   "contenu": "10 pièces",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/4d46b9f7.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "G04",
+   "cat": "granite",
+   "nom": "Set WK aluminium moulé 10 pièces — Bordeaux",
+   "desc": "Formes carrées modernes, finition granit bordeaux et plaque WK : une batterie de caractère en aluminium moulé (indiqué sur la boîte).",
+   "points": [
+    "10 pièces en boîte d’origine",
+    "Aluminium moulé (die-cast)",
+    "Design rainuré et formes carrées",
+    "Couvercles en verre"
+   ],
+   "contenu": "10 pièces",
+   "prix": 0,
+   "badge": "Nouveau",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/e18b9419.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "G05",
+   "cat": "granite",
+   "nom": "Set WK granité — Rose poudré",
+   "desc": "Une teinte rose poudré élégante, mouchetée de blanc, et des couvercles en verre. Le set qui donne envie de cuisiner.",
+   "points": [
+    "5 marmites de tailles différentes",
+    "Couvercles en verre",
+    "Finition granit mouchetée",
+    "Plaque WK sur chaque pièce"
+   ],
+   "contenu": "5 marmites avec couvercles",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/d822a655.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "G06",
+   "cat": "granite",
+   "nom": "Set WK granité noir moucheté — 3 marmites",
+   "desc": "Le noir intemporel moucheté de blanc, avec des couvercles en inox. Trois tailles essentielles pour bien démarrer.",
+   "points": [
+    "3 marmites de tailles différentes",
+    "Couvercles bombés en inox",
+    "Liserés argentés",
+    "Fond décoré"
+   ],
+   "contenu": "3 marmites avec couvercles",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/9af0d8d3.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "G07",
+   "cat": "granite",
+   "nom": "Set granité rouge vague — 5 marmites",
+   "desc": "Rouge éclatant à l’extérieur, intérieur clair façon pierre : on voit la cuisson, rien n’attache. Le fond est marqué compatible gaz, vitrocéramique, halogène et radiant.",
+   "points": [
+    "5 marmites avec couvercles",
+    "Intérieur clair effet pierre",
+    "Fond indiqué : gaz, vitrocéramique, halogène, radiant",
+    "Bords ondulés décoratifs"
+   ],
+   "contenu": "5 marmites avec couvercles",
+   "prix": 0,
+   "badge": "Coup de cœur",
+   "vedette": true,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/feb94a03.jpg",
+    "/catalogue/0a7c0c93.jpg",
+    "/catalogue/b2b45478.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "G08",
+   "cat": "granite",
+   "nom": "Set granité noir diamant — 4 marmites + sauteuse",
+   "desc": "Facettes façon diamant, granit noir moucheté et couvercles en verre. Livré avec une paire de gants de cuisine.",
+   "points": [
+    "4 marmites + 1 sauteuse avec couvercle",
+    "Design à facettes diamant",
+    "Couvercles en verre",
+    "Gants de cuisine inclus (photo)"
+   ],
+   "contenu": "4 marmites, 1 sauteuse, gants",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/98e60937.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "G09",
+   "cat": "granite",
+   "nom": "Set B.H.N granité noir carré — 5 marmites",
+   "desc": "Formes carrées contemporaines et granit noir pailleté : un style moderne qui change de l’ordinaire.",
+   "points": [
+    "5 marmites carrées",
+    "Couvercles en verre",
+    "Granit noir pailleté",
+    "Plaque B.H.N sur chaque pièce"
+   ],
+   "contenu": "5 marmites avec couvercles",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/4a9493e9.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "G10",
+   "cat": "granite",
+   "nom": "Set Unique noir diamant — 5 marmites",
+   "desc": "Un relief diamant noir profond qui accroche la lumière. Une batterie qui se remarque.",
+   "points": [
+    "5 marmites",
+    "Relief diamant",
+    "Couvercles en verre",
+    "Grandes poignées"
+   ],
+   "contenu": "5 marmites avec couvercles",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/4a0245d1.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "G11",
+   "cat": "granite",
+   "nom": "Set rose gold géométrique — 5 marmites",
+   "desc": "Le reflet rose gold et le motif géométrique en relief : la batterie la plus « déco » de la boutique.",
+   "points": [
+    "5 marmites",
+    "Motif géométrique en relief",
+    "Finition rose gold",
+    "Couvercles en verre"
+   ],
+   "contenu": "5 marmites avec couvercles",
+   "prix": 0,
+   "badge": "Nouveau",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/ed98392b.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "G12",
+   "cat": "granite",
+   "nom": "Set granité vert olive — 5 marmites",
+   "desc": "Un vert olive pailleté avec des rainures élégantes : frais, original, et pratique au quotidien.",
+   "points": [
+    "5 marmites",
+    "Finition pailletée vert olive",
+    "Rainures décoratives",
+    "Couvercles assortis"
+   ],
+   "contenu": "5 marmites avec couvercles",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/55a4f061.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "G13",
+   "cat": "granite",
+   "nom": "Set granité bleu canard — poignées effet bois",
+   "desc": "Bleu canard mat et poignées effet bois : un style nature et chic.",
+   "points": [
+    "5 marmites",
+    "Poignées et bouton effet bois",
+    "Couvercles en verre",
+    "Finition mate"
+   ],
+   "contenu": "5 marmites avec couvercles",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/7309242e.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "G14",
+   "cat": "granite",
+   "nom": "Set Luxtrend Classic Plus noir — couvercles inox bombés",
+   "desc": "Noir laqué et grands couvercles bombés en inox miroir : l’allure d’une cuisine de chef. Intérieur antidérapant texturé.",
+   "points": [
+    "5 marmites",
+    "Couvercles bombés inox avec hublot",
+    "Intérieur texturé antiadhésif",
+    "Fond décoré Classic Plus"
+   ],
+   "contenu": "5 marmites avec couvercles",
+   "prix": 0,
+   "badge": "",
+   "vedette": true,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/2eec3e28.jpg",
+    "/catalogue/a44b2384.jpg",
+    "/catalogue/1c862b0d.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "G15",
+   "cat": "granite",
+   "nom": "Set Luxtrend gris perle — couvercles inox bombés",
+   "desc": "Le même design spectaculaire en gris perle, plus doux et lumineux.",
+   "points": [
+    "5 marmites",
+    "Couvercles bombés inox avec hublot",
+    "Liserés argentés",
+    "Livré avec cales de protection"
+   ],
+   "contenu": "5 marmites avec couvercles",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/45ed927c.jpg",
+    "/catalogue/873553e3.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "G16",
+   "cat": "granite",
+   "nom": "Set Mainstays noir & cuivre",
+   "desc": "Noir mat et poignées cuivrées : une batterie complète avec poêles et casserole, pour tout faire.",
+   "points": [
+    "3 marmites, 2 poêles, 1 casserole",
+    "Poignées cuivrées",
+    "Couvercles en verre",
+    "Écumoires assorties (photo)"
+   ],
+   "contenu": "Batterie complète",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/84a56121.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "G17",
+   "cat": "granite",
+   "nom": "Set antiadhésif noir — 5 marmites + poêle",
+   "desc": "Le set complet et accessible pour équiper une cuisine d’un coup : cinq marmites et une poêle.",
+   "points": [
+    "5 marmites + 1 poêle",
+    "Couvercles en verre",
+    "Poignées isolantes",
+    "Revêtement antiadhésif"
+   ],
+   "contenu": "5 marmites, 1 poêle",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/ce3dfd51.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "G18",
+   "cat": "granite",
+   "nom": "Set Sundabest anthracite — 5 marmites + poêle + spatule",
+   "desc": "Aluminium (indiqué sur le carton) au revêtement anthracite, poêle et spatule incluses.",
+   "points": [
+    "5 marmites + 1 poêle + spatule",
+    "Aluminium",
+    "Couvercles en verre",
+    "Poignées isolantes"
+   ],
+   "contenu": "5 marmites, 1 poêle, 1 spatule",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/711a6945.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "G19",
+   "cat": "granite",
+   "nom": "Set Luxtrend aluminium 9 pièces (24 à 30 cm)",
+   "desc": "Quatre grandes marmites de 24, 26, 28 et 30 cm (indiqué sur la boîte) pour les grandes familles.",
+   "points": [
+    "9 pièces en boîte d’origine",
+    "Tailles 24 / 26 / 28 / 30 cm",
+    "Couvercles en verre",
+    "Ustensile inclus"
+   ],
+   "contenu": "9 pièces",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/38d8dbf1.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "G20",
+   "cat": "granite",
+   "nom": "Set antiadhésif bleu nuit — 3 marmites",
+   "desc": "Trois marmites bleu nuit en aluminium antiadhésif (boîte d’origine) : l’essentiel, bien fait.",
+   "points": [
+    "3 marmites",
+    "Aluminium antiadhésif",
+    "Couvercles en verre",
+    "Poignées isolantes"
+   ],
+   "contenu": "3 marmites avec couvercles",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/ac04d0b7.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "G21",
+   "cat": "granite",
+   "nom": "Set noir bandes argent — 5 marmites",
+   "desc": "Noir mat souligné de bandes argentées : sobre, élégant, passe-partout.",
+   "points": [
+    "5 marmites",
+    "Bandes décoratives argentées",
+    "Couvercle en verre",
+    "Poignées noires"
+   ],
+   "contenu": "5 marmites",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/9eecdab5.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "G22",
+   "cat": "granite",
+   "nom": "Set Dusseldorf rouge granité — 5 marmites + poêle",
+   "desc": "Rouge granité moucheté, couvercles en verre et une poêle assortie au fond inox.",
+   "points": [
+    "5 marmites + 1 poêle",
+    "Couvercles en verre",
+    "Fond de poêle inox",
+    "Poignées isolantes"
+   ],
+   "contenu": "5 marmites, 1 poêle",
+   "prix": 0,
+   "badge": "Best-seller",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/03acde81.jpg",
+    "/catalogue/ad088c2c.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "G23",
+   "cat": "granite",
+   "nom": "Wok granité taupe avec couvercle verre",
+   "desc": "Un wok profond effet pierre pour sauter, frire et mijoter. Couvercle en verre et poignée d’appoint en silicone.",
+   "points": [
+    "Wok profond à long manche",
+    "Couvercle en verre",
+    "Poignée d’appoint silicone",
+    "Intérieur effet pierre"
+   ],
+   "contenu": "1 wok avec couvercle",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/76aab142.jpg",
+    "/catalogue/0a8e020f.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "I01",
+   "cat": "inox",
+   "nom": "Couscoussier inox HCX 28 cm",
+   "desc": "Deux étages en inox brossé et un couvercle en verre : pour l’attiéké, le couscous, le riz et les légumes vapeur.",
+   "points": [
+    "Diamètre 28 cm (gravé)",
+    "Inox brossé",
+    "Couvercle en verre",
+    "Étage vapeur"
+   ],
+   "contenu": "Marmite + étage vapeur + couvercle",
+   "prix": 0,
+   "badge": "",
+   "vedette": true,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/4afdaf43.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "I02",
+   "cat": "inox",
+   "nom": "Set 3 marmites inox",
+   "desc": "Trois marmites en inox brillant, robustes et faciles à vivre.",
+   "points": [
+    "3 marmites",
+    "Inox",
+    "Couvercles inox",
+    "Anses solides"
+   ],
+   "contenu": "3 marmites avec couvercles",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/5b7aa35b.jpg",
+    "/catalogue/da9f8228.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "I03",
+   "cat": "inox",
+   "nom": "Set inox 12 pièces — poignées rouges",
+   "desc": "Une batterie inox complète en boîte d’origine, rehaussée de poignées rouges.",
+   "points": [
+    "12 pièces",
+    "Inox",
+    "Poignées rouges",
+    "Livré en boîte"
+   ],
+   "contenu": "12 pièces",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/015aebdd.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "I04",
+   "cat": "inox",
+   "nom": "Set inox 6 pièces (22 / 24 / 26 cm)",
+   "desc": "Trois faitouts inox de 22, 24 et 26 cm avec leurs couvercles (indiqué sur la boîte).",
+   "points": [
+    "6 pièces : 3 faitouts + 3 couvercles",
+    "Inox",
+    "Tailles 22 / 24 / 26 cm",
+    "Boîte d’origine"
+   ],
+   "contenu": "6 pièces",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/0e714be5.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "I05",
+   "cat": "inox",
+   "nom": "Set Korkmaz Alfa inox",
+   "desc": "Korkmaz Alfa, inox poli miroir : une batterie haut de gamme pour ceux qui veulent le meilleur.",
+   "points": [
+    "Marmites, sauteuse et poêle",
+    "Inox poli miroir",
+    "Couvercles inox",
+    "Boîte d’origine Korkmaz"
+   ],
+   "contenu": "Batterie complète",
+   "prix": 0,
+   "badge": "Haut de gamme",
+   "vedette": true,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/9b59a7e4.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "I06",
+   "cat": "inox",
+   "nom": "Set 6 faitouts aluminium Sundabest",
+   "desc": "Six faitouts en aluminium, du petit au très grand : la série des fêtes et des grandes familles.",
+   "points": [
+    "6 faitouts avec couvercles",
+    "Aluminium",
+    "Du petit au très grand format",
+    "Emboîtables"
+   ],
+   "contenu": "6 faitouts avec couvercles",
+   "prix": 33500,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/70fe345f.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "I07",
+   "cat": "inox",
+   "nom": "Set 6 faitouts aluminium Catania (20 à 38 cm)",
+   "desc": "Douze pièces (six faitouts et leurs couvercles) de 20 à 38 cm, indiquées sur la boîte. Pour les cérémonies et les restaurants.",
+   "points": [
+    "12 pièces : 6 faitouts + 6 couvercles",
+    "Tailles 20 / 24 / 26 / 30 / 34 / 38 cm",
+    "Aluminium",
+    "Boîte d’origine"
+   ],
+   "contenu": "12 pièces",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/ef19c20f.jpg",
+    "/catalogue/7c30db6e.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "I08",
+   "cat": "inox",
+   "nom": "Set 4 grands faitouts aluminium",
+   "desc": "Quatre grands faitouts aluminium aux anses solides : pour cuisiner en grande quantité.",
+   "points": [
+    "4 grands faitouts",
+    "Aluminium épais",
+    "Anses robustes",
+    "Couvercles"
+   ],
+   "contenu": "4 faitouts",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/d9a47d94.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "I09",
+   "cat": "inox",
+   "nom": "Set aluminium 5 faitouts",
+   "desc": "Cinq faitouts aluminium brillants en boîte d’origine.",
+   "points": [
+    "5 faitouts avec couvercles",
+    "Aluminium",
+    "Boîte d’origine",
+    "Anses solides"
+   ],
+   "contenu": "5 faitouts",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/57750c7b.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "I10",
+   "cat": "inox",
+   "nom": "Set 3 marmites aluminium Krakra",
+   "desc": "Trois marmites aluminium aux formes arrondies : simples, solides et à petit prix.",
+   "points": [
+    "3 marmites",
+    "Aluminium",
+    "Couvercles avec bouton",
+    "Anses solides"
+   ],
+   "contenu": "3 marmites",
+   "prix": 14900,
+   "badge": "Promo décembre",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/ea183cfe.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "E01",
+   "cat": "emaille",
+   "nom": "Marmites émaillées Prestige — collection dorée",
+   "desc": "Émail blanc, motifs peints et finitions dorées : poignées, bordures et boutons couleur or. Des marmites si belles qu’on les sert directement à table.",
+   "points": [
+    "Lot de 3 marmites (3 tailles)",
+    "Poignées et bordures dorées",
+    "Couvercles en verre",
+    "5 motifs au choix"
+   ],
+   "contenu": "3 marmites avec couvercles",
+   "prix": 0,
+   "badge": "Coup de cœur",
+   "vedette": true,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/7e665f48.jpg",
+    "/catalogue/06564287.jpg",
+    "/catalogue/91a4b7cc.jpg",
+    "/catalogue/ae9a01b1.jpg",
+    "/catalogue/7e288a91.jpg",
+    "/catalogue/0fdb3e14.jpg",
+    "/catalogue/dd2a231f.jpg",
+    "/catalogue/e551e72f.jpg",
+    "/catalogue/1c496193.jpg"
+   ],
+   "variantes": [
+    {
+     "nom": "Fleurs grises & libellules",
+     "image": "/catalogue/7e665f48.jpg"
+    },
+    {
+     "nom": "Fleurs roses & bleues",
+     "image": "/catalogue/06564287.jpg"
+    },
+    {
+     "nom": "Oiseaux & roses",
+     "image": "/catalogue/91a4b7cc.jpg"
+    },
+    {
+     "nom": "Roses anglaises",
+     "image": "/catalogue/ae9a01b1.jpg"
+    },
+    {
+     "nom": "Marguerites à pois roses",
+     "image": "/catalogue/7e288a91.jpg"
+    }
+   ]
+  },
+  {
+   "ref": "E02",
+   "cat": "emaille",
+   "nom": "Marmites émaillées roses rouges & bleues — 3 pièces",
+   "desc": "Le grand classique émaillé blanc aux roses rouges et bleues, qu’on retrouve dans toutes les belles cuisines.",
+   "points": [
+    "3 marmites",
+    "Émail blanc",
+    "Motif roses",
+    "Couvercles émaillés"
+   ],
+   "contenu": "3 marmites",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/bcd9fc05.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "E03",
+   "cat": "emaille",
+   "nom": "Marmites émaillées pivoines roses — 5 pièces",
+   "desc": "Cinq marmites émaillées aux pivoines roses : une collection complète et lumineuse.",
+   "points": [
+    "5 marmites",
+    "Émail blanc",
+    "Motif pivoines",
+    "Couvercle émaillé"
+   ],
+   "contenu": "5 marmites",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/fc51e2fa.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "E04",
+   "cat": "emaille",
+   "nom": "Casseroles émaillées — 5 pièces",
+   "desc": "Cinq casseroles émaillées aux couleurs vives, empilables et pratiques.",
+   "points": [
+    "5 casseroles",
+    "Émail brillant",
+    "Anses émaillées",
+    "Empilables"
+   ],
+   "contenu": "5 casseroles",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/f4469003.jpg",
+    "/catalogue/d000f3f1.jpg"
+   ],
+   "variantes": [
+    {
+     "nom": "Rouge",
+     "image": "/catalogue/f4469003.jpg"
+    },
+    {
+     "nom": "Orange",
+     "image": "/catalogue/d000f3f1.jpg"
+    }
+   ]
+  },
+  {
+   "ref": "E05",
+   "cat": "emaille",
+   "nom": "Marmites émaillées blanc dégradé vert — 5 pièces",
+   "desc": "Blanc pur et dégradé vert tendre : une collection fraîche et lumineuse.",
+   "points": [
+    "5 marmites",
+    "Émail blanc et vert",
+    "Couvercle avec bouton",
+    "Empilables"
+   ],
+   "contenu": "5 marmites",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/bdd5a2bb.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "S01",
+   "cat": "service",
+   "nom": "Plats isothermes fleuris — poignées dorées",
+   "desc": "Fleurs délicates et grandes poignées dorées : des plats chauffants qui gardent le repas au chaud avec beaucoup d’allure.",
+   "points": [
+    "Plusieurs tailles emboîtables",
+    "Isothermes",
+    "Poignées dorées",
+    "2 coloris"
+   ],
+   "contenu": "Set de plats isothermes",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/d24533b0.jpg"
+   ],
+   "variantes": [
+    {
+     "nom": "Gris perle",
+     "image": "/catalogue/d24533b0.jpg"
+    },
+    {
+     "nom": "Noir",
+     "image": "/catalogue/d24533b0.jpg"
+    }
+   ]
+  },
+  {
+   "ref": "S02",
+   "cat": "service",
+   "nom": "Plats isothermes effet marbre — poignées dorées",
+   "desc": "L’effet marbre et l’or : des plats chauffants dignes des plus belles réceptions.",
+   "points": [
+    "Plusieurs tailles emboîtables",
+    "Isothermes",
+    "Effet marbre",
+    "Poignées dorées"
+   ],
+   "contenu": "Set de plats isothermes",
+   "prix": 0,
+   "badge": "",
+   "vedette": true,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/b94a843a.jpg"
+   ],
+   "variantes": [
+    {
+     "nom": "Beige & doré",
+     "image": "/catalogue/b94a843a.jpg"
+    },
+    {
+     "nom": "Gris anthracite",
+     "image": "/catalogue/b94a843a.jpg"
+    }
+   ]
+  },
+  {
+   "ref": "S03",
+   "cat": "service",
+   "nom": "Plats isothermes Sundabests 4 pièces (0,8 à 3,6 L)",
+   "desc": "Quatre plats isothermes de 800 ml, 1,2 L, 2,4 L et 3,6 L (indiqué sur la boîte), cerclés de chrome.",
+   "points": [
+    "4 pièces : 0,8 / 1,2 / 2,4 / 3,6 L",
+    "Isothermes",
+    "Cerclage chromé",
+    "Boîte d’origine"
+   ],
+   "contenu": "4 plats",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/7b3e3e0c.jpg"
+   ],
+   "variantes": [
+    {
+     "nom": "Blanc",
+     "image": "/catalogue/7b3e3e0c.jpg"
+    },
+    {
+     "nom": "Jaune",
+     "image": "/catalogue/7b3e3e0c.jpg"
+    }
+   ]
+  },
+  {
+   "ref": "S04",
+   "cat": "service",
+   "nom": "Plats isothermes Sundabest Diamond 4 pièces",
+   "desc": "Relief diamant et cerclage chromé ajouré : quatre plats chauffants modernes.",
+   "points": [
+    "4 pièces emboîtables",
+    "Isothermes",
+    "Relief diamant",
+    "Boîte d’origine"
+   ],
+   "contenu": "4 plats",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/24d21d10.jpg"
+   ],
+   "variantes": [
+    {
+     "nom": "Vert",
+     "image": "/catalogue/24d21d10.jpg"
+    },
+    {
+     "nom": "Blanc",
+     "image": "/catalogue/24d21d10.jpg"
+    }
+   ]
+  },
+  {
+   "ref": "S05",
+   "cat": "service",
+   "nom": "Plats isothermes ondulés 4 pièces (0,6 à 3 L)",
+   "desc": "Un relief ondulé tout en douceur et un couvercle chromé : 600 ml, 1 L, 2 L et 3 L (indiqué sur la boîte).",
+   "points": [
+    "4 pièces : 0,6 / 1 / 2 / 3 L",
+    "Isothermes",
+    "Relief ondulé",
+    "Couvercles chromés"
+   ],
+   "contenu": "4 plats",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/bcb06204.jpg"
+   ],
+   "variantes": [
+    {
+     "nom": "Beige",
+     "image": "/catalogue/bcb06204.jpg"
+    },
+    {
+     "nom": "Saumon",
+     "image": "/catalogue/bcb06204.jpg"
+    }
+   ]
+  },
+  {
+   "ref": "S06",
+   "cat": "service",
+   "nom": "Plats isothermes blancs à rosace — 4 pièces",
+   "desc": "Blanc éclatant et rosace rouge et or : quatre plats chauffants pour toutes les occasions.",
+   "points": [
+    "4 pièces emboîtables",
+    "Isothermes",
+    "Décor rosace",
+    "Poignées et verrous"
+   ],
+   "contenu": "4 plats",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/video-rosace.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "S07",
+   "cat": "service",
+   "nom": "Plats isothermes inox IMI HotFood — 3 pièces",
+   "desc": "L’inox isotherme (indiqué sur l’étiquette) : robuste, brillant et durable.",
+   "points": [
+    "3 plats isothermes",
+    "Inox",
+    "Couvercles inox",
+    "Anses latérales"
+   ],
+   "contenu": "3 plats",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/782a686c.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "S08",
+   "cat": "service",
+   "nom": "Soup pots céramique cannelés blanc & or — 3 pièces",
+   "desc": "Céramique blanche cannelée et liseré or, couvercles en verre à bouton doré. Le service qui sublime une table.",
+   "points": [
+    "3 pièces",
+    "Céramique cannelée",
+    "Liseré et bouton dorés",
+    "Couvercles en verre"
+   ],
+   "contenu": "3 soup pots",
+   "prix": 0,
+   "badge": "Coup de cœur",
+   "vedette": true,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/db11638b.jpg",
+    "/catalogue/718fbc10.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "S09",
+   "cat": "service",
+   "nom": "Soup pots porcelaine diamant & frise dorée — 3 pièces",
+   "desc": "Porcelaine blanche à facettes et frise dorée ciselée : raffinement absolu.",
+   "points": [
+    "3 pièces",
+    "Porcelaine à facettes",
+    "Frise dorée",
+    "Couvercles"
+   ],
+   "contenu": "3 soup pots",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/201653a3.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "S10",
+   "cat": "service",
+   "nom": "Soup pots porcelaine nid d’abeille & or — 3 pièces",
+   "desc": "Relief nid d’abeille et anses dorées, en boîte d’origine.",
+   "points": [
+    "3 pièces",
+    "Porcelaine",
+    "Relief nid d’abeille",
+    "Anses dorées"
+   ],
+   "contenu": "3 soup pots",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/6dc172f1.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "S11",
+   "cat": "service",
+   "nom": "Gradient Soup Pot rouge — 3 pièces (0,75 / 1,25 / 2 L)",
+   "desc": "Dégradé rouge profond, couvercles en verre et bouton effet bois. 0,75 L, 1,25 L et 2 L.",
+   "points": [
+    "3 pièces : 0,75 / 1,25 / 2 L",
+    "Dégradé rouge",
+    "Couvercles en verre",
+    "Bouton effet bois"
+   ],
+   "contenu": "3 soup pots",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/0f75d893.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "S12",
+   "cat": "service",
+   "nom": "Plats à four porcelaine blanc & or sur support doré — 3 pièces",
+   "desc": "Trois plats rectangulaires blancs touchés d’or, posés sur des supports dorés. Pour servir comme dans un grand hôtel.",
+   "points": [
+    "3 plats rectangulaires",
+    "Porcelaine blanc & or",
+    "Supports dorés",
+    "Couvercle en verre"
+   ],
+   "contenu": "3 plats + supports",
+   "prix": 0,
+   "badge": "Prestige",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/b56c3f74.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "T01",
+   "cat": "table",
+   "nom": "Service de table grès noir mat",
+   "desc": "Assiettes, bols et tasses en grès noir mat : un style moderne et élégant.",
+   "points": [
+    "Assiettes plates et creuses, bols, tasses",
+    "Grès (stoneware)",
+    "Finition noir mat"
+   ],
+   "contenu": "Service complet",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/fcead67b.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "T02",
+   "cat": "table",
+   "nom": "Service de table Best Choice GGK — 16 pièces",
+   "desc": "Assiettes, bols, tasses et soucoupes blancs à liseré : 16 pièces en boîte.",
+   "points": [
+    "16 pièces",
+    "Blanc à liseré",
+    "Boîte d’origine"
+   ],
+   "contenu": "16 pièces",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/8d3e3257.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "T03",
+   "cat": "table",
+   "nom": "Ménagère Tramontina Plenus — 25 pièces",
+   "desc": "La ménagère Tramontina Plenus pour 6 personnes, avec son range-couverts.",
+   "points": [
+    "25 pièces",
+    "Pour 6 personnes",
+    "Inox, manches blancs",
+    "Range-couverts inclus"
+   ],
+   "contenu": "25 pièces",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/be45d38d.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "U01",
+   "cat": "ustensiles",
+   "nom": "Set de couteaux noir marbré & or sur support",
+   "desc": "Cinq couteaux aux manches noirs veinés d’or, présentés sur un support transparent.",
+   "points": [
+    "5 couteaux",
+    "Manches noir & or",
+    "Support transparent"
+   ],
+   "contenu": "5 couteaux + support",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/7ad1a660.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "U02",
+   "cat": "ustensiles",
+   "nom": "Set de couteaux marbré blanc + ciseaux, support rotatif",
+   "desc": "Couteaux effet marbre, ciseaux de cuisine et fusil, sur un support rotatif inox.",
+   "points": [
+    "5 couteaux + ciseaux + fusil",
+    "Manches effet marbre",
+    "Support rotatif"
+   ],
+   "contenu": "Set complet",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/f15d72b3.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "U03",
+   "cat": "ustensiles",
+   "nom": "Ustensiles silicone violet & bois avec pot",
+   "desc": "Spatules, louches, fouet et écumoire en silicone, manches en bois, rangés dans leur pot. Ils ne rayent pas vos marmites.",
+   "points": [
+    "Set d’ustensiles + pot",
+    "Silicone",
+    "Manches en bois",
+    "Protège les revêtements"
+   ],
+   "contenu": "Set + pot",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/b83d8d35.jpg",
+    "/catalogue/2aca9e2f.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "B01",
+   "cat": "electro",
+   "nom": "Blender Binatone 2 en 1 avec moulin",
+   "desc": "Un blender Binatone avec bocal incassable (étiquette) et un moulin pour les épices. Le compagnon des sauces, jus et piments.",
+   "points": [
+    "Bocal incassable",
+    "Moulin à épices inclus",
+    "Plusieurs vitesses",
+    "3 modèles au choix"
+   ],
+   "contenu": "Blender + moulin",
+   "prix": 0,
+   "badge": "Best-seller",
+   "vedette": true,
+   "expedition": "colis",
+   "images": [
+    "/catalogue/88077055.jpg",
+    "/catalogue/00761eb9.jpg",
+    "/catalogue/55e99ace.jpg"
+   ],
+   "variantes": [
+    {
+     "nom": "Gris anthracite",
+     "image": "/catalogue/88077055.jpg"
+    },
+    {
+     "nom": "Marron & crème",
+     "image": "/catalogue/00761eb9.jpg"
+    },
+    {
+     "nom": "Beige à boutons",
+     "image": "/catalogue/55e99ace.jpg"
+    }
+   ]
+  },
+  {
+   "ref": "P01",
+   "cat": "tapis",
+   "nom": "Tapis absorbant Shower Bath",
+   "desc": "Le tapis qui boit l’eau en quelques secondes. Dessous antidérapant, fin et doux. Quatre coloris.",
+   "points": [
+    "Absorption rapide",
+    "Dessous antidérapant",
+    "Séchage rapide",
+    "4 coloris"
+   ],
+   "contenu": "1 tapis",
+   "prix": 0,
+   "badge": "Best-seller",
+   "vedette": true,
+   "expedition": "tapis",
+   "images": [
+    "/catalogue/b21e5994.jpg",
+    "/catalogue/bd4997fa.jpg",
+    "/catalogue/f84193c1.jpg",
+    "/catalogue/5880fa31.jpg"
+   ],
+   "variantes": [
+    {
+     "nom": "Rose",
+     "image": "/catalogue/b21e5994.jpg"
+    },
+    {
+     "nom": "Bleu nuit",
+     "image": "/catalogue/bd4997fa.jpg"
+    },
+    {
+     "nom": "Pêche",
+     "image": "/catalogue/f84193c1.jpg"
+    },
+    {
+     "nom": "Turquoise",
+     "image": "/catalogue/5880fa31.jpg"
+    }
+   ]
+  },
+  {
+   "ref": "P02",
+   "cat": "tapis",
+   "nom": "Tapis Shower demi-lune bleu marine — 80 × 45 cm",
+   "desc": "Forme demi-lune, bleu marine et inscription « Shower ». 80 × 45 cm.",
+   "points": [
+    "80 × 45 cm",
+    "Absorbant",
+    "Antidérapant",
+    "Forme demi-lune"
+   ],
+   "contenu": "1 tapis",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "tapis",
+   "images": [
+    "/catalogue/b4e8814e.jpg",
+    "/catalogue/b64d9e12.jpg"
+   ],
+   "variantes": []
+  },
+  {
+   "ref": "P03",
+   "cat": "tapis",
+   "nom": "Tapis Bathroom",
+   "desc": "L’inscription « Bathroom » et des couleurs profondes pour une salle de bain soignée.",
+   "points": [
+    "Absorbant",
+    "Antidérapant",
+    "Séchage rapide",
+    "4 modèles"
+   ],
+   "contenu": "1 tapis",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "tapis",
+   "images": [
+    "/catalogue/ad4b35d7.jpg",
+    "/catalogue/499a55b2.jpg",
+    "/catalogue/001dffc0.jpg",
+    "/catalogue/db32609f.jpg"
+   ],
+   "variantes": [
+    {
+     "nom": "Vert sapin & gris",
+     "image": "/catalogue/ad4b35d7.jpg"
+    },
+    {
+     "nom": "Noir & rose",
+     "image": "/catalogue/499a55b2.jpg"
+    },
+    {
+     "nom": "Prune",
+     "image": "/catalogue/001dffc0.jpg"
+    },
+    {
+     "nom": "Marbre noir & or",
+     "image": "/catalogue/db32609f.jpg"
+    }
+   ]
+  },
+  {
+   "ref": "P04",
+   "cat": "tapis",
+   "nom": "Tapis Signature marbre & or",
+   "desc": "Effets marbre, lignes dorées et motifs graphiques : des tapis qui décorent autant qu’ils absorbent. Pour la douche comme pour l’entrée.",
+   "points": [
+    "Absorbant",
+    "Antidérapant",
+    "Impression haute définition",
+    "7 modèles"
+   ],
+   "contenu": "1 tapis",
+   "prix": 0,
+   "badge": "",
+   "vedette": true,
+   "expedition": "tapis",
+   "images": [
+    "/catalogue/dec580ea.jpg",
+    "/catalogue/63299b00.jpg",
+    "/catalogue/3b908707.jpg",
+    "/catalogue/30ecbdbb.jpg",
+    "/catalogue/ed56bc31.jpg",
+    "/catalogue/ab961acf.jpg",
+    "/catalogue/6026c9bd.jpg",
+    "/catalogue/77224d11.jpg"
+   ],
+   "variantes": [
+    {
+     "nom": "Marbre Blue Salad",
+     "image": "/catalogue/dec580ea.jpg"
+    },
+    {
+     "nom": "Marbre veiné cuivre",
+     "image": "/catalogue/63299b00.jpg"
+    },
+    {
+     "nom": "Géométrique gris & or",
+     "image": "/catalogue/3b908707.jpg"
+    },
+    {
+     "nom": "Vagues gris & cuivre",
+     "image": "/catalogue/30ecbdbb.jpg"
+    },
+    {
+     "nom": "Soleil doré",
+     "image": "/catalogue/ed56bc31.jpg"
+    },
+    {
+     "nom": "Welcome marbre",
+     "image": "/catalogue/ab961acf.jpg"
+    },
+    {
+     "nom": "Feather Carpet",
+     "image": "/catalogue/6026c9bd.jpg"
+    }
+   ]
+  },
+  {
+   "ref": "P05",
+   "cat": "tapis",
+   "nom": "Tapis absorbant uni effet cuir",
+   "desc": "Uni, sobre, effet cuir : il s’accorde avec toutes les salles de bain. Cinq coloris.",
+   "points": [
+    "Absorbant",
+    "Antidérapant",
+    "Aspect cuir",
+    "5 coloris"
+   ],
+   "contenu": "1 tapis",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "tapis",
+   "images": [
+    "/catalogue/215c7c97.jpg",
+    "/catalogue/7190d5a2.jpg",
+    "/catalogue/4eddcfee.jpg",
+    "/catalogue/2b57cb28.jpg",
+    "/catalogue/8a6b442d.jpg"
+   ],
+   "variantes": [
+    {
+     "nom": "Gris pierre",
+     "image": "/catalogue/215c7c97.jpg"
+    },
+    {
+     "nom": "Framboise",
+     "image": "/catalogue/7190d5a2.jpg"
+    },
+    {
+     "nom": "Noir",
+     "image": "/catalogue/4eddcfee.jpg"
+    },
+    {
+     "nom": "Anthracite craquelé",
+     "image": "/catalogue/2b57cb28.jpg"
+    },
+    {
+     "nom": "Gris clair",
+     "image": "/catalogue/8a6b442d.jpg"
+    }
+   ]
+  },
+  {
+   "ref": "P06",
+   "cat": "tapis",
+   "nom": "Tapis ovale fleurs 3D",
+   "desc": "Des fleurs en trompe-l’œil 3D sur un tapis ovale absorbant : la touche fraîche et gaie.",
+   "points": [
+    "Forme ovale",
+    "Impression fleurs 3D",
+    "Absorbant et antidérapant",
+    "5 motifs"
+   ],
+   "contenu": "1 tapis",
+   "prix": 0,
+   "badge": "Nouveau",
+   "vedette": false,
+   "expedition": "tapis",
+   "images": [
+    "/catalogue/93b663b1.jpg",
+    "/catalogue/693d1906.jpg",
+    "/catalogue/29d0050c.jpg",
+    "/catalogue/b6920c39.jpg",
+    "/catalogue/402e5f3b.jpg"
+   ],
+   "variantes": [
+    {
+     "nom": "Rose & turquoise",
+     "image": "/catalogue/93b663b1.jpg"
+    },
+    {
+     "nom": "Pivoines blanches",
+     "image": "/catalogue/693d1906.jpg"
+    },
+    {
+     "nom": "Fleurs des champs",
+     "image": "/catalogue/29d0050c.jpg"
+    },
+    {
+     "nom": "Dahlias orange",
+     "image": "/catalogue/b6920c39.jpg"
+    },
+    {
+     "nom": "Roses saumon",
+     "image": "/catalogue/402e5f3b.jpg"
+    }
+   ]
+  },
+  {
+   "ref": "F01",
+   "cat": "pantoufles",
+   "nom": "Pantoufles éponge spa & hôtel — personnalisables",
+   "desc": "Douces, légères, en éponge : parfaites pour les spas, hôtels, mariages et invités. Personnalisation possible (logo, prénoms, date) sur devis.",
+   "points": [
+    "Éponge douce",
+    "Taille adulte",
+    "Personnalisables sur devis",
+    "Blanc ou gris"
+   ],
+   "contenu": "1 paire",
+   "prix": 0,
+   "badge": "",
+   "vedette": false,
+   "expedition": "tapis",
+   "images": [
+    "/catalogue/699e81a1.jpg",
+    "/catalogue/85c4f138.jpg",
+    "/catalogue/b594deee.jpg"
+   ],
+   "variantes": [
+    {
+     "nom": "Blanc",
+     "image": "/catalogue/699e81a1.jpg"
+    },
+    {
+     "nom": "Gris",
+     "image": "/catalogue/b594deee.jpg"
+    }
+   ]
+  }
+ ],
+ "textes": {
+  "granite": {
+   "bienfaits": [
+    "Les aliments n’attachent pas : moins d’huile, plats plus légers",
+    "Nettoyage en quelques secondes, à l’éponge douce",
+    "Chauffe vite et répartit la chaleur : moins de gaz consommé",
+    "Un rendu élégant qui passe du feu à la table"
+   ],
+   "solution": "Fini les sauces qui brûlent au fond, le riz collé qu’il faut gratter pendant des heures et les marmites noircies : le revêtement effet pierre garde vos plats intacts et votre cuisine propre.",
+   "pourquoi": "Une bonne batterie se garde des années. Prendre la série complète coûte moins cher que de racheter une marmite chaque fois que l’ancienne accroche — et vous cuisinez mieux dès le premier jour.",
+   "entretien": "Laisser refroidir avant de laver. Éponge douce, pas de paille de fer. Utiliser des spatules en bois ou en silicone."
+  },
+  "inox": {
+   "bienfaits": [
+    "Matériau robuste qui ne craint pas les grosses quantités",
+    "Idéal pour les sauces, le riz, l’attiéké vapeur et les fêtes",
+    "Ne garde pas les odeurs et se lave facilement",
+    "Durée de vie très longue"
+   ],
+   "solution": "Pour les grandes familles, les cérémonies et les cuisines qui tournent tous les jours : des marmites qui encaissent les gros volumes sans se déformer.",
+   "pourquoi": "C’est l’achat « une fois pour toutes ». Les marmites fines s’abîment vite ; celles-ci restent dans la famille.",
+   "entretien": "Laver à l’eau savonneuse, bien sécher. Pour l’aluminium, éviter de laisser tremper longtemps des plats très acides."
+  },
+  "emaille": {
+   "bienfaits": [
+    "Émail lisse et brillant, facile à nettoyer",
+    "Ne transmet pas de goût aux aliments",
+    "Assez beau pour servir directement à table",
+    "Un cadeau qui fait toujours plaisir (mariage, dot, crémaillère)"
+   ],
+   "solution": "Vous recevez ? Plus besoin de transvaser dans des plats de service : vous cuisinez et vous servez dans la même marmite, et la table est déjà décorée.",
+   "pourquoi": "Les motifs partent vite et ne reviennent pas toujours. Une collection complète et assortie fait toute la différence dans une cuisine.",
+   "entretien": "Éviter les chocs et la paille de fer pour préserver l’émail. Éponge douce et eau savonneuse."
+  },
+  "service": {
+   "bienfaits": [
+    "Garde les plats chauds plus longtemps",
+    "Présentation élégante pour les invités",
+    "Pratique pour transporter un repas (bureau, famille, fête)",
+    "Plusieurs tailles qui s’emboîtent pour gagner de la place"
+   ],
+   "solution": "Le repas refroidit pendant qu’on attend les invités ? Ces plats gardent la chaleur et donnent tout de suite un air de fête à la table.",
+   "pourquoi": "C’est le détail qui change une réception. Et c’est l’un des cadeaux les plus appréciés pour un mariage ou une installation.",
+   "entretien": "Laver à la main avec une éponge douce. Ne pas mettre les plats isothermes au four ni au micro-ondes."
+  },
+  "table": {
+   "bienfaits": [
+    "Une table assortie et soignée",
+    "Pièces prévues pour toute la famille",
+    "Facile à entretenir au quotidien"
+   ],
+   "solution": "Des assiettes et couverts dépareillés ? Un service complet et harmonieux, prêt pour les repas de tous les jours comme pour les invités.",
+   "pourquoi": "Un service complet revient moins cher que d’acheter les pièces une par une, et tout reste assorti.",
+   "entretien": "Lavage à l’eau savonneuse, bien sécher les couverts après lavage."
+  },
+  "ustensiles": {
+   "bienfaits": [
+    "Gestes plus précis et plus rapides en cuisine",
+    "Rangement propre sur le plan de travail",
+    "Protège le revêtement de vos marmites (silicone)"
+   ],
+   "solution": "Les bons outils au bon endroit : moins de temps perdu, des découpes nettes et des marmites qui ne se rayent plus.",
+   "pourquoi": "C’est le petit achat qui rend la cuisine plus agréable chaque jour.",
+   "entretien": "Couteaux : laver et sécher aussitôt. Silicone : eau chaude savonneuse."
+  },
+  "electro": {
+   "bienfaits": [
+    "Jus, sauces, piment, arachide : tout se mixe en quelques secondes",
+    "Le moulin inclus moud les épices et le café",
+    "Bocal incassable : plus sûr au quotidien"
+   ],
+   "solution": "Fini le pilon pour chaque sauce : vous gagnez du temps tous les jours et vos préparations sont plus fines.",
+   "pourquoi": "Un mixeur qui sert matin, midi et soir se rembourse en temps gagné dès la première semaine.",
+   "entretien": "Débrancher avant de nettoyer. Laver le bocal et le moulin aussitôt après usage, ne jamais plonger le moteur dans l’eau."
+  },
+  "tapis": {
+   "bienfaits": [
+    "Absorbe l’eau en quelques secondes en sortant de la douche",
+    "Dessous antidérapant : moins de risques de glissade",
+    "Sèche vite, ne garde pas l’humidité",
+    "Fin, il passe sous les portes"
+   ],
+   "solution": "Le sol mouillé et glissant après la douche, c’est le premier risque de chute à la maison, surtout pour les enfants et les personnes âgées. Ce tapis boit l’eau et tient au sol.",
+   "pourquoi": "Pour le prix d’un petit tapis, vous sécurisez toute la salle de bain et vous changez son allure.",
+   "entretien": "Secouer et passer un chiffon humide. Laisser sécher à plat, à l’ombre."
+  },
+  "pantoufles": {
+   "bienfaits": [
+    "Douces et confortables",
+    "Idéales pour spas, hôtels, mariages et invités",
+    "Personnalisables (logo, prénoms, date)"
+   ],
+   "solution": "Offrir du confort à vos clients ou invités, avec une touche personnalisée qui marque les esprits.",
+   "pourquoi": "Personnalisées, elles deviennent un souvenir qu’on garde et un support pour votre marque.",
+   "entretien": "Lavage doux à la main."
+  }
+ }
+}
